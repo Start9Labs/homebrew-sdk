@@ -12,7 +12,6 @@ class StartCli < Formula
   
     def install
       bin.install Dir["*"].first => "start-cli"
-      system "xattr", "-d", "com.apple.quarantine", "#{bin}/start-cli"
     end
   
     test do
