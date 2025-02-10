@@ -6,20 +6,20 @@ class StartCli < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/start9labs/start-cli/releases/download/v0.3.6-alpha14/start-cli-aarch64-apple-darwin.tar.gz"
-      sha256 "41618eb66f0182cd420d744c805bbf1b75939aca8dc0b8898aeaf0e3d98e9e27"
+      sha256 "f614f1244be5e59123070bbfe1d2b486677cf580871725cbadceb7e2ea7867be"
     else
       url "https://github.com/start9labs/start-cli/releases/download/v0.3.6-alpha14/start-cli-x86_64-apple-darwin.tar.gz"
-      sha256 "c5ee1bf7c83aeeb73e912b1b758ae4a82f6c4b049bfb2b15e146b2258fbe8e3a"
+      sha256 "dd902aff90434ab17bc2d0580bfb9146712d6db970a5218e458f6676d473280d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/start9labs/start-cli/releases/download/v0.3.6-alpha14/start-cli-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3d5d737345032a968ff3051211696443e49601df11eae47d8be96e4ed4d35fab"
+      sha256 "1796795b4549e8c3232b9a1017cb0227ecda5e2bdb4967035d471340627074d9"
     else
       url "https://github.com/start9labs/start-cli/releases/download/v0.3.6-alpha14/start-cli-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0dbf1c090bf2979656f5a02d344cf24955cf9d5eefa49fab14ff65c63c99fa74"
+      sha256 "2acbf7054ceb204a5a6dd10249bef225209aedfec730fc107f540feadc8f1255"
     end
   end
 
