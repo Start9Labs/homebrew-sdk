@@ -1,6 +1,7 @@
-class StartCli < Formula
+class StartCliAT036Alpha15 < Formula
   desc "CLI for StartOS interaction"
   homepage "https://start9.com"
+  version "0.3.6-alpha15"
   license "MIT"
   
   on_macos do
